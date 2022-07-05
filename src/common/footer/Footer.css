@@ -1,0 +1,74 @@
+footer {
+  background: #12233a;
+  padding: 40px 0;
+  color: #fff;
+}
+.logo_title {
+  background-color: #fff;
+  display: inline-flex;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: rgba(3, 1, 34, 0.157) 0 4px 16px;
+}
+.logo_title img {
+  width: 80px;
+}
+footer h1 {
+  color: #d3672d;
+  font-weight: 800;
+  font-style: italic;
+}
+footer .img {
+  padding: 0px 10px;
+}
+footer .img span {
+  margin-top: 5px;
+}
+footer p {
+  font-size: 14px;
+  font-weight: 300;
+  opacity: 0.5;
+  margin-bottom: 20px;
+}
+footer h2 {
+  margin-bottom: 20px;
+}
+footer li {
+  margin-bottom: 10px;
+  opacity: 0.5;
+}
+.footer-bottom-list {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+}
+.footer-bottom-list-icons img {
+  display: block;
+  height: 30px;
+  max-width: 100%;
+  box-sizing: content-box;
+}
+.footer-bottom-list li {
+  padding: 7px;
+}
+.footer-bottom-list--service-links {
+  margin: 40px 0;
+}
+.footer-bottom-list--service-links li:not(:last-child)::after {
+  content: "";
+  border-left: 1px solid;
+  position: relative;
+  left: 10px;
+}
+.center-footer {
+  display: block;
+  text-align: center;
+}
